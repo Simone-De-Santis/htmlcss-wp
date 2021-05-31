@@ -10,6 +10,9 @@
     max-width: 800px;  
     margin: 0 auto;
 }
+.logo{
+    height: 100%;
+}
 .float-left{
     float: left
 }
@@ -24,9 +27,11 @@
     margin-bottom: 30px;
 }
 .section{
-    height: 100px;
-    background-color: lightblue;
-    margin-bottom: 20px;
+     background-image:url(../img/banner.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 300px;
+     margin-bottom: 20px;
 }
 .main-section{
     background-color: lightcoral;
