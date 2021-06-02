@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 .float-left{
-    float: left
+    float: left;
 }
-
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+img{
+    border-radius: 20px;
 }
 
 .containre{
@@ -22,52 +24,73 @@
 }
 .header-sairbar{
     /* height: 50px; */
-    background-color: orange;
+    /* background-color: orange; */
     margin-bottom: 30px;
 }
 .header-sairbar .main-menu li{
     list-style-type: none;
     display: inline-block;
     padding: 5px;
+    margin-top: 20px;
 
 }
 .header-sairbar .main-menu a{
     text-decoration: none;
 }
 .section{
-     background-image:url(../img/banner.jpg);
+    height: 500px;
+}
+.banner{
+     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/banner.jpg);
      background-position: center;
      background-size: cover;
-     height: 300px;
+     height:100%;
      margin-bottom: 20px;
+     border-radius: 20px;
+     padding-left: 50px;
+     padding-top: 30%;
+     color: white;
+     font-size: 25px;
 }
 .main-section{
-    background-color: lightcoral;
-    height: 500px;
+    /* background-color: lightcoral; */
+    /* height: 500px; */
     width: 1200px;
 }
-.table{
-    background-color: lightseagreen;
-}
-
 .main-section img{
     width: 100%;
 }
 
+.img-collum{
+    height: 200px;
+}
 
-
-
-
-
-
-
-
+#image1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url( ../img/img-1.jpg );
+    height: 200px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+#image2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url( ../img/banner-2.jpg );
+    height: 200px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+#image3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url( ../img/img-3.jpg );
+    height: 200px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
 .left , .center , .right{
      height: calc(100% - 80px);
 }
-
 .top{
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0 ;
 }
 .left , .right{
     width: 25%;
@@ -75,11 +98,9 @@
 .center{
     margin: 0 20px;
     width: calc(50% - 40px);
-
 }
 footer{
     margin-top: 10px;
     background-color: lightgray;
     height: 40px;
-
 }
